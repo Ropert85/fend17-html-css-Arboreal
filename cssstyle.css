@@ -1,0 +1,207 @@
+
+body{
+  	font-family: "Helvetica Neue", sans-serif;
+  	margin: 0;
+	background-color: #DAE9E4;
+}
+*{
+  	box-sizing: border-box;
+}
+h1{
+	font-size: 3rem;
+}
+
+p{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 2rem;	
+
+}
+.backgroundThemes h2, .pricelist h2, .toform h2 {
+	width: 100%;
+	font-size: 2rem;
+	background-color: #00281F;
+	border-radius: 1rem;
+	opacity: 0.7;
+	color:white;
+	text-align: center;
+
+}
+.mainbox{
+	max-width: 70rem;
+	margin: auto;
+}
+.top{
+	display: flex;
+ 	flex-wrap: wrap;
+ 	flex-direction:row; 
+ 	width: 100%;
+ 	background-color: #00281F;
+ 	opacity: 0.7;
+}
+.headpic{
+	background-color: #00281F;	
+}
+.header{
+	color:white;
+	background-color: #00281F;
+	align-items: center;
+}
+.headerslogan{
+ 	width: 100%;
+ 	color:white;
+ 	padding: 0 4rem;
+}
+.topbackground{
+	background: url("bamboo.jpg"),white;
+	background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+.parent{
+  	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction:row; 
+  	align-items: flex-end;	
+}
+.misson{
+  	margin: 2rem;
+  	padding: 0 1rem;
+  	color: white;
+ 	font-size:2rem;
+  	border-radius: 1rem;
+  	background-color: #00281F;
+  	opacity: 0.7;
+  	flex: 4;
+  	
+	
+}
+.link {
+  	margin: 2rem;
+  	color: white;
+  	color:white;
+  	flex:1;
+  	border-radius: 1rem;
+  	flex-direction:column;
+ } 
+ .linkbox{
+ 	margin: 0.5rem;
+ 	border-radius: 0.5rem;
+ 	padding: 1rem;
+ 	background-color: #00281F;
+ 	opacity: 0.7;
+
+ }
+.linkbox:hover, .misson:hover {
+	opacity: 1.0;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+}
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.backgroundThemes{
+	background: url("bonsai.jpg"),white;
+	background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: right;	
+}
+.themes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0.5rem;
+	
+}	
+
+.themesAloha{
+	margin: 0.5rem;
+	padding: 0.5rem;
+	flex:3;
+	background-color: #DBF6E9;
+	color:#493a1C;
+	border-radius: 1rem;
+	opacity: 0.7;
+}
+.themesSiberia{
+	margin: 0.5rem;
+	padding: 0.5rem;
+	flex:1;
+	background-color: #d8e9f3;
+	color:black;
+	border-radius: 1rem;
+	opacity: 0.7;
+}
+
+.themesExotique{
+	margin: 0.5rem;
+	padding: 0.5rem;
+	flex:2;
+	background-color:#DDE2E3;
+	color:#3C455C;
+	border-radius: 1rem;
+	opacity: 0.7;
+}
+.themesAloha:hover, .themesSiberia:hover, .themesExotique:hover {
+	opacity: 1.0;
+}
+.pricelist{
+	padding: 0.5rem;
+	margin:1rem;
+}
+
+border-collapse: separate;
+border-spacing: 0.1rem;
+
+th{
+  	text-align: center;
+  	border-spacing: 0.1rem #DAE9E4;
+}
+th, td{
+  	padding: 1rem;
+  	background-color: white;
+}
+.toform{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	margin:1rem;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+input{
+	font-size: 2rem;
+	padding: 0.5rem;
+	width: 48%;
+}
+.form input[class="textarea"]{
+	width: 96%;
+	border: 0.5rem #FDAE84;
+	height: 10rem;
+}
+.form input[type="submit"]{
+	background:#FDAE84;
+	border: 0.2rem #ECC7C0;
+	color:white; 
+	width: 96%;
+}
+.footer{
+	align-items: baseline;
+	background-color: #00281F;
+	color: gray;
+	padding: 0.5rem;
+	opacity: 0.7;
+}
+li:nth-child(odd){
+    color: white;
+}
