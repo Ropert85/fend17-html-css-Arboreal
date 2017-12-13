@@ -1,3 +1,26 @@
+
+Robert:
+Bra indentering i koden
+Mkt flex = bra!
+Samma måttyper över allt (% och rem) = bra!
+Coolt med transparenta “boxar”
+Hover-effekter gillar jag
+
+Funderingar/förslag på ändringar:
+Mainbox, varför inte ha den 100% istället för 70rem? Behövs den överhuvudtaget?
+
+THEMES har du som div, kanske döpa den till article eller section(eller vad det kan vara), med tanke på semantisk html?
+
+Sen har du tre headers, vet inte om det är ok (enligt semantisk html).
+
+Utseendemässigt så är delen vid “contact us…” lite skev. Rubriken h2 (med grön bakgrund) är bredare på höger sida om man jämför med form under och lirar inte riktigt om man jämför med footern. Småskavank bara.
+
+Överlag bra jobbat Robert!!  Med vänlig hälsning,
+Andreas
+
+
+
+
 Egna ord:
 En kul uppgift där man kan gå all in på flexbox. 
 
