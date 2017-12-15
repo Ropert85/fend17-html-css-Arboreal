@@ -7,13 +7,16 @@ Coolt med transparenta “boxar”
 Hover-effekter gillar jag
 
 Funderingar/förslag på ändringar:
-Mainbox, varför inte ha den 100% istället för 70rem? Behövs den överhuvudtaget?
+Mainbox, varför inte ha den 100% istället för 70rem? Behövs den överhuvudtaget? 
+- Ja, vill sätta en maxbredd så möjligheten till utrymme för reklam eller bilder på sidorna för framtiden.
+Har ni gjort detta, reklam för julgranar och ändrat till %.
 
 THEMES har du som div, kanske döpa den till article eller section(eller vad det kan vara), med tanke på semantisk html?
 
 Sen har du tre headers, vet inte om det är ok (enligt semantisk html).
 
 Utseendemässigt så är delen vid “contact us…” lite skev. Rubriken h2 (med grön bakgrund) är bredare på höger sida om man jämför med form under och lirar inte riktigt om man jämför med footern. Småskavank bara.
+- Detta är nu löst. tog bort detta.
 
 Överlag bra jobbat Robert!!  Med vänlig hälsning,
 Andreas
