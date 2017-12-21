@@ -12,8 +12,9 @@ Mainbox, varför inte ha den 100% istället för 70rem? Behövs den överhuvudta
 Har ni gjort detta, reklam för julgranar och ändrat till %.
 
 THEMES har du som div, kanske döpa den till article eller section(eller vad det kan vara), med tanke på semantisk html?
+Detta är nu gjort. har sätt över hur jag namnget allt.
 
-Sen har du tre headers, vet inte om det är ok (enligt semantisk html).
+Sen har du tre headers, vet inte om det är ok (enligt semantisk html). fixat, en header nu.
 
 Utseendemässigt så är delen vid “contact us…” lite skev. Rubriken h2 (med grön bakgrund) är bredare på höger sida om man jämför med form under och lirar inte riktigt om man jämför med footern. Småskavank bara.
 - Detta är nu löst. tog bort detta.
@@ -53,4 +54,17 @@ HTML och CSS är korrekt indenterad. Done
 
 HTML och CSS är validerad via W3C HTML Validator/W3C CSS Validator och ska inte innehålla varken fel eller varningar. Du ska bifoga den output du får utav valideringen i din README.md.
 Document (HTML checking completed. No errors or warnings to show.
-165		Parsningsfel [: separate; border-spacing: 0.1rem; th] (vet ej vad detta är för fel eller hur jag löser det)
+165		Parsningsfel [: separate; border-spacing: 0.1rem; th] (vet ej vad detta är för fel eller hur jag löser det) fixaf 19 dec.
+
+
+
+Del 2. @media
+jag har valt att i mobilt läge med en upplösning under 50 rem kommer reklamen presenteras i en box efter themes.
+Det kommer även att visas en mer passande presentation av prislistan där varje priskategori är en flexbox istället för i ett "table". 
+Themes exotique kommer ta 100% plats och hamna nedanför de två andra thems.
+Har valt och behålla menyn även i mobil för att underlätta för äldre webläsare.
+
+I surfplatta över 50 rem kommer hela prislistan presenteras i en Table istället. (Kanske inte den snyggaste men lägger in det för att lära mig det)
+
+I upplösning över 60 rem kommer reklam att visas på sidorna istället för under misson.
+
