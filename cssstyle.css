@@ -36,16 +36,17 @@ h4{
 	display: flex;
 	flex-direction:column; 
 	background-color: #DAE9E4;
+	width: calc(100% - 16rem);
 }
 .reklamleft {
-	width: 10%;
+	width: 10rem;
 	background: url("gran left.png");
 	background-repeat: no-repeat;
     background-size: contain, cover;
 
 }
 .reklamright{
-	width: 10%;
+	width: 10rem;
 	background: url("gran right.png");
 	background-repeat: no-repeat;
     background-size: contain, cover;
@@ -55,21 +56,25 @@ h4{
  	flex-wrap: wrap;
  	flex-direction:row; 
  	width: 100%;
- 	background-color: #00281F;
+ 
  	opacity: 0.7;
 }
 .headpic{
 	background-color: #00281F;	
+	width: 30%;
 }
-.header{
+.arboreal{
 	color:white;
 	background-color: #00281F;
 	align-items: center;
+	width: 70%;
+
 }
 .headerslogan{
  	width: 100%;
  	color:white;
  	padding: 0 4rem;
+ 	background-color: #00281F;
 }
 .topbackground{
 	background: url("bamboo.jpg"),white;
@@ -170,19 +175,17 @@ a:active {
 	border-radius: 1rem;
 	opacity: 0.7;
 }
-.themesAloha:hover, .themesSiberia:hover, .themesExotique:hover {
+.themesAloha:hover, .themesSiberia:hover, .themesExotique:hover, .standard:hover, .premium:hover, .exclusive:hover {
 	opacity: 1.0;
 }
 .baner {
    	display: flex;
-  	flex-wrap: wrap;
-  	flex-direction:row; 
-  	align-items: center;
+	align-items: center;
   	background: url("baner.png"),white;
   	background-repeat: no-repeat;
     background-size: contain, cover;
     width: 100%;
-    height:30rem;
+
 }
 .banertext {
 	margin: 3rem;
@@ -204,7 +207,7 @@ border-spacing: 0.1rem;
 
 th{
   	text-align: center;
-  	border-spacing: 0.1rem #DAE9E4;
+  	border-spacing: 0.1rem;
 }
 th, td{
   	padding: 1rem;
@@ -255,6 +258,7 @@ li:nth-child(odd){
 	flex-direction:row; 
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 
 .pricing li>h2{
@@ -280,16 +284,17 @@ li:nth-child(odd){
 	font-size: 1rem;
 	font-style: italic;
 	padding: 0.8rem;
+	color:gray;
 
 }
 .standard{
-width: 100%
+width: 90%
 }
 .premium{
-width: 100%
+width: 90%
 }
 .exclusive{
-width: 100%
+width: 90%
 }
 
 @media (min-width: 62rem) {
@@ -298,9 +303,7 @@ width: 100%
    		display: flex;
 		flex-direction:row; 
 		}
-		.mainbox {
-   		max-width: 80%;
-				}
+
 		.baner{
 		display:none;
 		}
@@ -313,6 +316,12 @@ width: 100%
 	.reklamleft {
 	display: none;	
 	}
+	.mainbox {
+   	width: 100%;	
+	}
+	.themesExotique {
+	width: 100%;	
+	}
 	}
 @media (min-width:50rem){
 .pricing{
@@ -322,5 +331,6 @@ width: 100%
 @media (max-width:50rem){
 .pricelist{
 	display:none;
+
 }
 }
